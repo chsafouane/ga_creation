@@ -1,0 +1,16 @@
+name: "Hello World"
+description: "Dit bonjour à une personne"
+author: "Safouane CHERGUI"
+runs:
+  using: "node12"
+  main: "index.js"
+
+inputs:
+  firstname:
+    description: "Le nom de la personne"
+    required: true
+    default: "World"
+
+branding:
+  icon: "message-circle"
+  color: "orange"
